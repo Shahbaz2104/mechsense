@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T13:39:37Z",
+  "title": "Design System: MechSense",
+  "extensions": {
+    "colorMeta": {
+      "console-ground": {
+        "role": "neutral",
+        "displayName": "Console Ground",
+        "canonical": "oklch(0.165 0.021 264.5)",
+        "lightCanonical": "oklch(0.975 0.003 245)",
+        "purpose": "Page background — the darkest layer of the console in dark theme; cool paper in light theme.",
+        "tonalRamp": ["oklch(0.15 0.021 264.5)", "oklch(0.25 0.021 264.5)", "oklch(0.35 0.021 264.5)", "oklch(0.45 0.021 264.5)", "oklch(0.55 0.021 264.5)", "oklch(0.68 0.021 264.5)", "oklch(0.82 0.021 264.5)", "oklch(0.95 0.021 264.5)"]
+      },
+      "panel-surface": {
+        "role": "neutral",
+        "displayName": "Panel Surface",
+        "canonical": "oklch(0.205 0.024 265.5)",
+        "lightCanonical": "oklch(1 0 0)",
+        "purpose": "Cards, popovers, dialogs — one step above the ground.",
+        "tonalRamp": ["oklch(0.15 0.024 265.5)", "oklch(0.25 0.024 265.5)", "oklch(0.35 0.024 265.5)", "oklch(0.45 0.024 265.5)", "oklch(0.55 0.024 265.5)", "oklch(0.68 0.024 265.5)", "oklch(0.82 0.024 265.5)", "oklch(0.95 0.024 265.5)"]
+      },
+      "rail-surface": {
+        "role": "neutral",
+        "displayName": "Rail Surface",
+        "canonical": "oklch(0.148 0.019 264.5)",
+        "lightCanonical": "oklch(0.988 0.002 247.839)",
+        "purpose": "Sidebar rail — one step below the ground so navigation recedes.",
+        "tonalRamp": ["oklch(0.15 0.019 264.5)", "oklch(0.25 0.019 264.5)", "oklch(0.35 0.019 264.5)", "oklch(0.45 0.019 264.5)", "oklch(0.55 0.019 264.5)", "oklch(0.68 0.019 264.5)", "oklch(0.82 0.019 264.5)", "oklch(0.95 0.019 264.5)"]
+      },
+      "charcoal-surface": {
+        "role": "neutral",
+        "displayName": "Charcoal Surface",
+        "canonical": "oklch(0.27 0.03 262)",
+        "lightCanonical": "oklch(0.955 0.004 250)",
+        "purpose": "Muted fills — secondary buttons, hover washes, segmented-control troughs, skeletons.",
+        "tonalRamp": ["oklch(0.15 0.03 262)", "oklch(0.25 0.03 262)", "oklch(0.35 0.03 262)", "oklch(0.45 0.03 262)", "oklch(0.55 0.03 262)", "oklch(0.68 0.03 262)", "oklch(0.82 0.03 262)", "oklch(0.95 0.03 262)"]
+      },
+      "cool-ink": {
+        "role": "neutral",
+        "displayName": "Cool Ink",
+        "canonical": "oklch(0.975 0.004 250)",
+        "lightCanonical": "oklch(0.21 0.032 264.5)",
+        "purpose": "Primary text.",
+        "tonalRamp": ["oklch(0.15 0.004 250)", "oklch(0.25 0.004 250)", "oklch(0.35 0.004 250)", "oklch(0.45 0.004 250)", "oklch(0.55 0.004 250)", "oklch(0.68 0.004 250)", "oklch(0.82 0.004 250)", "oklch(0.95 0.004 250)"]
+      },
+      "slate-label": {
+        "role": "neutral",
+        "displayName": "Slate Label",
+        "canonical": "oklch(0.68 0.022 262)",
+        "lightCanonical": "oklch(0.485 0.022 260)",
+        "purpose": "Secondary text — captions, units, table headers, context lines.",
+        "tonalRamp": ["oklch(0.15 0.022 262)", "oklch(0.25 0.022 262)", "oklch(0.35 0.022 262)", "oklch(0.45 0.022 262)", "oklch(0.55 0.022 262)", "oklch(0.68 0.022 262)", "oklch(0.82 0.022 262)", "oklch(0.95 0.022 262)"]
+      },
+      "signal-teal": {
+        "role": "primary",
+        "displayName": "Signal Teal",
+        "canonical": "oklch(0.74 0.125 172)",
+        "lightCanonical": "oklch(0.52 0.105 178)",
+        "purpose": "The single interactive accent — primary buttons, focus rings, active nav, brand mark, chart series 1.",
+        "tonalRamp": ["oklch(0.15 0.125 172)", "oklch(0.25 0.125 172)", "oklch(0.35 0.125 172)", "oklch(0.45 0.125 172)", "oklch(0.55 0.125 172)", "oklch(0.68 0.125 172)", "oklch(0.82 0.125 172)", "oklch(0.95 0.125 172)"]
+      },
+      "teal-ink": {
+        "role": "primary",
+        "displayName": "Teal Ink",
+        "canonical": "oklch(0.155 0.022 264.5)",
+        "lightCanonical": "oklch(0.985 0.005 175)",
+        "purpose": "Deep navy label on Signal Teal fills (primary button text, brand waveform).",
+        "tonalRamp": ["oklch(0.15 0.022 264.5)", "oklch(0.25 0.022 264.5)", "oklch(0.35 0.022 264.5)", "oklch(0.45 0.022 264.5)", "oklch(0.55 0.022 264.5)", "oklch(0.68 0.022 264.5)", "oklch(0.82 0.022 264.5)", "oklch(0.95 0.022 264.5)"]
+      },
+      "health-green": {
+        "role": "tertiary",
+        "displayName": "Health Green",
+        "canonical": "oklch(0.735 0.155 153)",
+        "lightCanonical": "oklch(0.545 0.13 155)",
+        "purpose": "Binding status lamp: healthy machines, resolved anomalies, positive deltas. Never decoration.",
+        "tonalRamp": ["oklch(0.15 0.155 153)", "oklch(0.25 0.155 153)", "oklch(0.35 0.155 153)", "oklch(0.45 0.155 153)", "oklch(0.55 0.155 153)", "oklch(0.68 0.155 153)", "oklch(0.82 0.155 153)", "oklch(0.95 0.155 153)"]
+      },
+      "alert-amber": {
+        "role": "tertiary",
+        "displayName": "Alert Amber",
+        "canonical": "oklch(0.79 0.15 85)",
+        "lightCanonical": "oklch(0.66 0.135 72)",
+        "purpose": "Binding status lamp: warning machines, warn threshold rules/bands, warning-severity anomalies.",
+        "tonalRamp": ["oklch(0.15 0.15 85)", "oklch(0.25 0.15 85)", "oklch(0.35 0.15 85)", "oklch(0.45 0.15 85)", "oklch(0.55 0.15 85)", "oklch(0.68 0.15 85)", "oklch(0.82 0.15 85)", "oklch(0.95 0.15 85)"]
+      },
+      "critical-red": {
+        "role": "tertiary",
+        "displayName": "Critical Red",
+        "canonical": "oklch(0.68 0.19 25)",
+        "lightCanonical": "oklch(0.55 0.195 25)",
+        "purpose": "Binding status lamp: critical machines, crit threshold rules/bands, open critical anomalies, destructive actions.",
+        "tonalRamp": ["oklch(0.15 0.19 25)", "oklch(0.25 0.19 25)", "oklch(0.35 0.19 25)", "oklch(0.45 0.19 25)", "oklch(0.55 0.19 25)", "oklch(0.68 0.19 25)", "oklch(0.82 0.19 25)", "oklch(0.95 0.19 25)"]
+      },
+      "badge-critical-fill": {
+        "role": "tertiary",
+        "displayName": "Badge Critical Fill",
+        "canonical": "oklch(0.55 0.195 25)",
+        "lightCanonical": "oklch(0.55 0.195 25)",
+        "purpose": "Solid red behind white count-badge digits in both themes so they clear 4.5:1."
+      },
+      "info-cyan": {
+        "role": "secondary",
+        "displayName": "Info Cyan",
+        "canonical": "oklch(0.76 0.115 215)",
+        "lightCanonical": "oklch(0.58 0.115 225)",
+        "purpose": "Neutral-informational states (Acknowledged anomaly status), chart series 2. Never a machine-health meaning.",
+        "tonalRamp": ["oklch(0.15 0.115 215)", "oklch(0.25 0.115 215)", "oklch(0.35 0.115 215)", "oklch(0.45 0.115 215)", "oklch(0.55 0.115 215)", "oklch(0.68 0.115 215)", "oklch(0.82 0.115 215)", "oklch(0.95 0.115 215)"]
+      },
+      "plot-violet": {
+        "role": "secondary",
+        "displayName": "Plot Violet",
+        "canonical": "oklch(0.72 0.13 265)",
+        "lightCanonical": "oklch(0.62 0.145 265)",
+        "purpose": "Chart series 3 only — keeps multi-series plots separable without borrowing status hues.",
+        "tonalRamp": ["oklch(0.15 0.13 265)", "oklch(0.25 0.13 265)", "oklch(0.35 0.13 265)", "oklch(0.45 0.13 265)", "oklch(0.55 0.13 265)", "oklch(0.68 0.13 265)", "oklch(0.82 0.13 265)", "oklch(0.95 0.13 265)"]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "oklch(1 0 0 / 10%)",
+        "lightCanonical": "oklch(0.915 0.005 255)",
+        "purpose": "The 1px borders and dividers that separate every surface — the system's only elevation language."
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Summary metric values in the six-cell strip — the largest numbers on the page. Always tabular." },
+      "headline": { "displayName": "Headline", "purpose": "Page titles in the header." },
+      "title": { "displayName": "Title", "purpose": "Card and section titles." },
+      "body": { "displayName": "Body", "purpose": "Default UI copy, table cells, list rows, form values." },
+      "label": { "displayName": "Label", "purpose": "Metric-cell captions, table headers, chips, context lines — often in Slate Label color." },
+      "mono": { "displayName": "Machine Mono", "purpose": "Machine identifiers (P-101, M-204) in tables, selects, command palette, chart footers." }
+    },
+    "shadows": [
+      { "name": "active-segment", "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "purpose": "Tailwind shadow-sm on the selected cell of period/metric segmented controls — a 1px lift confirming the pressed cell. The only shadow on content chrome." },
+      { "name": "overlay", "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)", "purpose": "Tailwind shadow-md on popovers, selects, dropdown menus, chart tooltips." },
+      { "name": "sheet", "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)", "purpose": "Tailwind shadow-lg on side sheets and dialogs." },
+      { "name": "inset-rail", "value": "0 1px 2px 0 rgb(0 0 0 / 0.05)", "purpose": "Tailwind shadow-sm on the content card of the inset sidebar variant, separating content column from rail on wide screens." }
+    ],
+    "motion": [
+      { "name": "state-transition", "value": "150ms", "purpose": "Default Tailwind transition-* duration for hover/focus/active color changes on buttons, inputs, rows, nav items." },
+      { "name": "overlay-enter", "value": "100ms", "purpose": "duration-100 + tw-animate-css fade/zoom/slide for popovers, selects, dropdowns, sheets." },
+      { "name": "rail-collapse", "value": "200ms ease-linear", "purpose": "Sidebar width/position collapse between expanded, icon-rail, and off-canvas states." },
+      { "name": "press", "value": "translateY(1px) on :active", "purpose": "Buttons press down 1px under the pointer; no scale or spring." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" },
+      { "name": "2xl", "value": "1536px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single filled accent action in a view — Quick actions, Create work order. Signal Teal fill, Teal Ink label.",
+      "html": "<button class=\"ds-btn-primary\">+ Quick actions</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid transparent; border-radius: 10px; background: var(--primary, oklch(0.74 0.125 172)); color: var(--primary-foreground, oklch(0.155 0.022 264.5)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; line-height: 1.43; white-space: nowrap; cursor: pointer; outline: none; transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease, transform 75ms ease; } .ds-btn-primary:hover { background: color-mix(in oklch, var(--primary, oklch(0.74 0.125 172)) 80%, transparent); } .ds-btn-primary:focus-visible { border-color: var(--ring, oklch(0.74 0.125 172)); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring, oklch(0.74 0.125 172)) 50%, transparent); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Default secondary action — ground fill, hairline border, washes to Charcoal Surface on hover.",
+      "html": "<button class=\"ds-btn-outline\">All machines <svg class=\"ds-btn-outline-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M5 12h14\"/><path d=\"m12 5 7 7-7 7\"/></svg></button>",
+      "css": ".ds-btn-outline { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid var(--border, oklch(1 0 0 / 10%)); border-radius: 10px; background: var(--background, oklch(0.165 0.021 264.5)); color: var(--foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; line-height: 1.43; white-space: nowrap; cursor: pointer; outline: none; transition: background-color 150ms ease, color 150ms ease, border-color 150ms ease, box-shadow 150ms ease, transform 75ms ease; } .ds-btn-outline:hover { background: var(--muted, oklch(0.27 0.03 262)); color: var(--foreground, oklch(0.975 0.004 250)); } .ds-btn-outline:focus-visible { border-color: var(--ring, oklch(0.74 0.125 172)); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring, oklch(0.74 0.125 172)) 50%, transparent); } .ds-btn-outline:active { transform: translateY(1px); } .ds-btn-outline:disabled { opacity: 0.5; pointer-events: none; } .ds-btn-outline-icon { width: 16px; height: 16px; flex-shrink: 0; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost-hover",
+      "description": "No fill at rest; Charcoal Surface wash on hover — header utilities and low-emphasis actions.",
+      "html": "<button class=\"ds-btn-ghost\">Theme</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid transparent; border-radius: 10px; background: transparent; color: var(--foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; line-height: 1.43; white-space: nowrap; cursor: pointer; outline: none; transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease; } .ds-btn-ghost:hover { background: color-mix(in oklch, var(--muted, oklch(0.27 0.03 262)) 50%, transparent); color: var(--foreground, oklch(0.975 0.004 250)); } .ds-btn-ghost:focus-visible { border-color: var(--ring, oklch(0.74 0.125 172)); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring, oklch(0.74 0.125 172)) 50%, transparent); } .ds-btn-ghost:active { background: color-mix(in oklch, var(--muted, oklch(0.27 0.03 262)) 50%, transparent); } .ds-btn-ghost:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Destructive Button",
+      "kind": "button",
+      "refersTo": "button-destructive",
+      "description": "Tinted critical action — 10% Critical Red wash with Critical Red label; never a solid red fill.",
+      "html": "<button class=\"ds-btn-destructive\">Delete reading</button>",
+      "css": ".ds-btn-destructive { display: inline-flex; align-items: center; justify-content: center; gap: 6px; height: 32px; padding: 0 10px; border: 1px solid transparent; border-radius: 10px; background: color-mix(in oklch, var(--destructive, oklch(0.68 0.19 25)) 10%, transparent); color: var(--destructive, oklch(0.68 0.19 25)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; line-height: 1.43; white-space: nowrap; cursor: pointer; outline: none; transition: background-color 150ms ease, color 150ms ease, box-shadow 150ms ease, transform 75ms ease; } .ds-btn-destructive:hover { background: color-mix(in oklch, var(--destructive, oklch(0.68 0.19 25)) 20%, transparent); } .ds-btn-destructive:focus-visible { box-shadow: 0 0 0 3px color-mix(in oklch, var(--destructive, oklch(0.68 0.19 25)) 20%, transparent); } .ds-btn-destructive:active { transform: translateY(1px); } .ds-btn-destructive:disabled { opacity: 0.5; pointer-events: none; }"
+    },
+    {
+      "name": "Text Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Compact 32px field — transparent wash fill, hairline input border, teal ring on focus.",
+      "html": "<input class=\"ds-input\" type=\"text\" placeholder=\"Search machines, pages...\" aria-label=\"Search\"/>",
+      "css": ".ds-input { display: block; width: 100%; min-width: 0; height: 32px; padding: 4px 10px; border: 1px solid var(--input, oklch(1 0 0 / 15%)); border-radius: 10px; background: color-mix(in oklch, var(--input, oklch(1 0 0 / 15%)) 30%, transparent); color: var(--foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.43; outline: none; transition: border-color 150ms ease, box-shadow 150ms ease, background-color 150ms ease; } .ds-input::placeholder { color: var(--muted-foreground, oklch(0.68 0.022 262)); } .ds-input:hover { border-color: color-mix(in oklch, var(--input, oklch(1 0 0 / 15%)) 70%, var(--foreground, oklch(0.975 0.004 250))); } .ds-input:focus-visible { border-color: var(--ring, oklch(0.74 0.125 172)); box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring, oklch(0.74 0.125 172)) 50%, transparent); } .ds-input:disabled { opacity: 0.5; cursor: not-allowed; background: color-mix(in oklch, var(--input, oklch(1 0 0 / 15%)) 50%, transparent); }"
+    },
+    {
+      "name": "Card Panel",
+      "kind": "card",
+      "refersTo": "panel-surface",
+      "description": "The standard content container — Panel Surface on the ground, 14px radius, hairline border, no shadow at rest.",
+      "html": "<div class=\"ds-card\"><div class=\"ds-card-header\"><div class=\"ds-card-title\">Fleet health</div><div class=\"ds-card-description\">Derived from latest readings and open events · problems first</div></div><div class=\"ds-card-content\"><p class=\"ds-card-body\">P-101 <span class=\"ds-card-unit\">10.24 mm/s</span></p></div></div>",
+      "css": ".ds-card { display: flex; flex-direction: column; gap: 16px; overflow: hidden; padding: 16px; border: 1px solid var(--border, oklch(1 0 0 / 10%)); border-radius: 14px; background: var(--card, oklch(0.205 0.024 265.5)); color: var(--card-foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; box-shadow: none; } .ds-card-header { display: grid; auto-rows: min-items; gap: 2px; margin: -16px -16px 0; padding: 16px; border-bottom: 1px solid var(--border, oklch(1 0 0 / 10%)); } .ds-card-title { font-size: 1rem; font-weight: 500; line-height: 1.375; } .ds-card-description { font-size: 0.75rem; font-weight: 400; line-height: 1.33; color: var(--muted-foreground, oklch(0.68 0.022 262)); } .ds-card-content { padding: 0; } .ds-card-body { font-size: 0.875rem; font-variant-numeric: tabular-nums; } .ds-card-unit { color: var(--muted-foreground, oklch(0.68 0.022 262)); }"
+    },
+    {
+      "name": "Sidebar Nav Item",
+      "kind": "nav",
+      "refersTo": "rail-surface",
+      "description": "Persistent rail navigation row — 8px radius, accent wash on hover/active, optional critical-count badge.",
+      "html": "<a class=\"ds-nav-item\" href=\"#\" aria-current=\"page\"><svg class=\"ds-nav-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.48 12H2\"/></svg><span class=\"ds-nav-label\">Overview</span></a><a class=\"ds-nav-item\" href=\"#\"><svg class=\"ds-nav-icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg><span class=\"ds-nav-label\">Anomaly Events</span><span class=\"ds-nav-badge\">5</span></a>",
+      "css": ".ds-nav-item { position: relative; display: flex; align-items: center; gap: 8px; width: 100%; padding: 8px; border-radius: 8px; color: var(--sidebar-foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.875rem; font-weight: 400; line-height: 1.43; text-decoration: none; outline: none; cursor: pointer; transition: background-color 150ms ease, color 150ms ease; } .ds-nav-item:hover { background: var(--sidebar-accent, oklch(0.255 0.028 262)); color: var(--sidebar-accent-foreground, oklch(0.975 0.004 250)); } .ds-nav-item:focus-visible { box-shadow: 0 0 0 2px var(--sidebar-ring, oklch(0.74 0.125 172)); } .ds-nav-item[aria-current=\"page\"] { background: var(--sidebar-accent, oklch(0.255 0.028 262)); font-weight: 500; } .ds-nav-item[aria-current=\"page\"]::before { content: ''; position: absolute; left: 0; top: 8px; bottom: 8px; width: 2px; border-radius: 2px; background: var(--sidebar-primary, oklch(0.74 0.125 172)); } .ds-nav-icon { width: 16px; height: 16px; flex-shrink: 0; } .ds-nav-label { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; } .ds-nav-badge { display: inline-flex; align-items: center; justify-content: center; min-width: 16px; height: 16px; padding: 0 4px; border-radius: 9999px; background: var(--destructive-fill, oklch(0.55 0.195 25)); color: var(--destructive-foreground, oklch(0.975 0.004 250)); font-size: 10px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Status Chip",
+      "kind": "chip",
+      "refersTo": "status-chip-critical",
+      "description": "Binding status lamp as a pill — 10% tinted fill, 30–40% tinted border, full-strength text, 6px dot. Modifier classes carry the tone.",
+      "html": "<div class=\"ds-chip-row\"><span class=\"ds-chip ds-chip--healthy\"><span class=\"ds-chip-dot\" aria-hidden=\"true\"></span>Healthy</span><span class=\"ds-chip ds-chip--warning\"><span class=\"ds-chip-dot\" aria-hidden=\"true\"></span>Warning</span><span class=\"ds-chip ds-chip--critical\"><span class=\"ds-chip-dot\" aria-hidden=\"true\"></span>Critical</span></div>",
+      "css": ".ds-chip-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; } .ds-chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 8px; border: 1px solid transparent; border-radius: 9999px; font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 0.75rem; font-weight: 500; line-height: 1.33; white-space: nowrap; transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease; } .ds-chip-dot { width: 6px; height: 6px; border-radius: 9999px; background: currentColor; flex-shrink: 0; } .ds-chip--healthy { background: color-mix(in oklch, var(--success, oklch(0.735 0.155 153)) 10%, transparent); border-color: color-mix(in oklch, var(--success, oklch(0.735 0.155 153)) 30%, transparent); color: var(--success, oklch(0.735 0.155 153)); } .ds-chip--warning { background: color-mix(in oklch, var(--warning, oklch(0.79 0.15 85)) 10%, transparent); border-color: color-mix(in oklch, var(--warning, oklch(0.79 0.15 85)) 40%, transparent); color: var(--warning, oklch(0.79 0.15 85)); } .ds-chip--critical { background: color-mix(in oklch, var(--danger, oklch(0.68 0.19 25)) 10%, transparent); border-color: color-mix(in oklch, var(--danger, oklch(0.68 0.19 25)) 40%, transparent); color: var(--danger, oklch(0.68 0.19 25)); } .ds-chip:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, var(--ring, oklch(0.74 0.125 172)) 50%, transparent); }"
+    },
+    {
+      "name": "Count Badge",
+      "kind": "chip",
+      "refersTo": "badge-critical-fill",
+      "description": "Circular unacknowledged-alert counter — solid Badge Critical Fill with white tabular digits; used in the header bell and sidebar nav.",
+      "html": "<span class=\"ds-count-badge\">5</span>",
+      "css": ".ds-count-badge { display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 9999px; background: var(--destructive-fill, oklch(0.55 0.195 25)); color: var(--destructive-foreground, oklch(0.975 0.004 250)); font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; font-size: 10px; font-weight: 600; line-height: 1; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Threshold Horizon",
+      "kind": "custom",
+      "refersTo": "components.threshold-horizon",
+      "description": "Signature chart treatment: dashed warn/crit limit rules in their lamp colors, 7% tinted limit bands, and a shaded anomaly interval — sensor data as engineered condition, not a generic line plot.",
+      "html": "<div class=\"ds-threshold-horizon\" role=\"img\" aria-label=\"Threshold horizon: vibration trend crossing the critical limit with a shaded anomaly interval\"><svg viewBox=\"0 0 420 170\" width=\"420\" height=\"170\"><rect class=\"ds-th-band-warn\" x=\"36\" y=\"86\" width=\"372\" height=\"34\"/><rect class=\"ds-th-band-crit\" x=\"36\" y=\"24\" width=\"372\" height=\"62\"/><rect class=\"ds-th-anomaly\" x=\"290\" y=\"24\" width=\"66\" height=\"128\"/><line class=\"ds-th-rule-warn\" x1=\"36\" y1=\"120\" x2=\"408\" y2=\"120\"/><line class=\"ds-th-rule-crit\" x1=\"36\" y1=\"86\" x2=\"408\" y2=\"86\"/><polyline class=\"ds-th-trace\" points=\"36,128 60,126 84,124 108,122 132,120 156,118 180,116 204,112 228,108 252,102 276,96 300,90 324,82 348,72 372,60 396,52 408,48\"/><text class=\"ds-th-label-warn\" x=\"404\" y=\"116\" text-anchor=\"end\">warn 4.50</text><text class=\"ds-th-label-crit\" x=\"404\" y=\"98\" text-anchor=\"end\">crit 7.10</text><text class=\"ds-th-tick\" x=\"36\" y=\"162\">18:20</text><text class=\"ds-th-tick\" x=\"222\" y=\"162\" text-anchor=\"middle\">01:16</text><text class=\"ds-th-tick\" x=\"408\" y=\"162\" text-anchor=\"end\">17:00</text></svg></div>",
+      "css": ".ds-threshold-horizon { background: var(--card, oklch(0.205 0.024 265.5)); border: 1px solid var(--border, oklch(1 0 0 / 10%)); border-radius: 14px; padding: 16px; font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif; } .ds-threshold-horizon svg { display: block; width: 100%; height: auto; } .ds-th-band-warn { fill: var(--warning, oklch(0.79 0.15 85)); fill-opacity: 0.07; } .ds-th-band-crit { fill: var(--danger, oklch(0.68 0.19 25)); fill-opacity: 0.07; } .ds-th-anomaly { fill: var(--danger, oklch(0.68 0.19 25)); fill-opacity: 0.1; stroke: var(--danger, oklch(0.68 0.19 25)); stroke-opacity: 0.35; stroke-dasharray: 3 3; stroke-width: 1; } .ds-th-rule-warn { stroke: var(--warning, oklch(0.79 0.15 85)); stroke-width: 1; stroke-dasharray: 6 4; } .ds-th-rule-crit { stroke: var(--danger, oklch(0.68 0.19 25)); stroke-width: 1; stroke-dasharray: 6 4; } .ds-th-trace { fill: none; stroke: var(--chart-1, oklch(0.74 0.125 172)); stroke-width: 1.75; stroke-linejoin: round; stroke-linecap: round; } .ds-th-label-warn { fill: var(--warning, oklch(0.79 0.15 85)); font-size: 10px; } .ds-th-label-crit { fill: var(--danger, oklch(0.68 0.19 25)); font-size: 10px; } .ds-th-tick { fill: var(--muted-foreground, oklch(0.68 0.022 262)); font-size: 11px; font-variant-numeric: tabular-nums; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Control Room Console",
+    "overview": "MechSense is a monitoring console judged on state readability first: the engineer opens the app and reads fleet condition in one glance. The Overview voice is instrument-panel precision — dense, tabular numerals, status-lamp color, and copy that reads like gauges and nameplates rather than marketing. It refuses the generic equal-size metric-card grid as its structure: health leads as a dense status table sorted problems-first, summary metrics support it, and the sensor trend with its threshold horizon closes the story.\n\nThe world is a deep navy/charcoal ground with a signal-teal accent, inherited from the Phase-1 tokens and pinned by the surface brief. Component philosophy is restrained and instrumental: hairline borders, flat surfaces, no lift or shadow on resting cards — states change color and value, never elevation. Amber and red are reserved for warning and critical machine meaning; they are status lamps, not decoration. Every number, chart, and threshold traces to real backend data (provenance over decoration).\n\nBoth themes ship: dark is the default at first paint; the light theme keeps the same hues as print-ink depths on cool paper. Responsive coverage is full — the side rail collapses to an icon rail and then a hamburger sheet, the metric strip reflows 6→3→2 columns, and the fleet table sheds columns on narrow widths.",
+    "keyCharacteristics": [
+      "Instrument-panel precision: dense rhythm, tabular numerals, gauge-and-nameplate copy",
+      "Deep navy ground + signal-teal accent; amber/red strictly reserved for warning/critical",
+      "Flat and layered: 1px hairline borders are the only elevation on resting surfaces",
+      "Geist with tabular figures on every sensor readout, count, and table cell",
+      "Signature \"Threshold horizon\" charts: dashed warn/crit rules, tinted limit bands, anomaly interval shading",
+      "shadcn v4 grammar: small radii, restrained surfaces, color-only state changes"
+    ],
+    "rules": [
+      { "name": "The Status Latch Rule", "body": "Green means healthy, amber means warning, red means critical — nothing else, ever. Amber and red are reserved for warning/critical machine meaning; they must never decorate headings, branding, or \"positive\" emphasis. If a color looks like a status lamp, it must report a status.", "section": "colors" },
+      { "name": "The Teal Monopoly Rule", "body": "Signal Teal is the only interactive accent. Status hues never fill a primary button; teal never fakes a status. Rarity is what makes the accent read as \"action\" against a field of lamps.", "section": "colors" },
+      { "name": "The Tabular Numerals Rule", "body": "Every sensor value, count, delta, threshold, and table cell renders with tabular figures (font-variant-numeric: tabular-nums). Columns of numbers must align like a gauge panel; proportional digits are a bug.", "section": "typography" },
+      { "name": "The Hairline Rule", "body": "Depth is drawn, not cast. Every resting surface is defined by its 1px border and its step on the surface ladder; a shadow on a resting card is a violation. Shadows belong only to transient overlays and the active segment of a control.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep amber and red locked to warning/critical machine meaning — status chips, threshold rules, critical deltas, destructive actions only.",
+      "Do render every measured number with tabular numerals and its engineering unit (mm/s, °C, RPM, %, bar).",
+      "Do define resting surfaces with a 1px Hairline border and a step on the surface ladder (Rail → Ground → Panel).",
+      "Do draw every sensor chart as a Threshold horizon: dashed warn/crit rules, 7% tinted bands, and shaded anomaly intervals from real configured limits.",
+      "Do keep copy instrument-panel: nameplates, gauges, counts, and thresholds — no marketing tone.",
+      "Do give every data view real loading, error, and empty states inside the same framed panel.",
+      "Do sort fleet tables problems-first and keep the worst-condition machine as the default chart selection.",
+      "Do use Signal Teal as the sole interactive accent and draw focus as a 3px teal ring at 50% alpha."
+    ],
+    "donts": [
+      "Don't put a drop-shadow on a resting card, panel, or table — depth is a 1px border, not a shadow.",
+      "Don't use amber, red, or green for decoration, branding, or generic emphasis.",
+      "Don't animate chart data draw-on or springy entrances — plots render instantly; motion is reserved for 150ms state transitions and 100ms overlay entrances.",
+      "Don't invent trend arrows, comparisons, or percentages that don't trace to backend data (provenance over decoration).",
+      "Don't use proportional digits in any sensor value, count, or table cell.",
+      "Don't make a filled primary button more than once per view; everything else is outline, ghost, or text.",
+      "Don't add a second accent hue outside the chart-series palette (teal, cyan, violet, amber, red)."
+    ]
+  }
+}
